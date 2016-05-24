@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It point to the place where the changed occurred therefor reducing the scope of troubleshooting and saving time.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By saving my time when searching for the exact moment when the bug was introduced.
+    By providing an easy opportunity to rollback any changes made in project
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: more control on logical data divisions for saving, naming, right number of versions
+    Cons: possibility to forget,
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Sometimes it's reasonable to save changes on multiple files that are logically connected to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows the whole history of all commits made.
+    Git diff can compare 2 files and show what have changed in the second one.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because there is always a way to do as many backup as I want when it's logically justified.
+    So I do not have to be afraid to break something as long as I can go back to a previous working version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For developing a website, webapp
+
+*********** Lesson 2 **********
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can add files where logical change was introduced to staging area.
+I can compare files in staging area to working dir and to repository
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can help if you want to create a new version of your program or if you ant to test something, or fix a bug, or introduce new feature
+
+How do the diagrams help you visualize the branch structure?
+It helps me to understand how many branches I have and which commits are inside each branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merge 2 branches the current branch gets all the commits form the merged one.
+We represent it that way because new branch has 2 parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+While doing merge manually we can specify a message  
